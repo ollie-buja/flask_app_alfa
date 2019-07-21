@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block head %}
+
+{% block title %} Min app {% endblock %}
+
+{% endblock  %}
+
+{% block body %}
+<h1> Hej , min app </h1>
+
+<a href = "{{ url_for ('testalink') }}">klicka</a>
+{% endblock %}
